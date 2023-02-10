@@ -5,13 +5,13 @@ from email.mime.text import MIMEText
 
 app = Flask(__name__, static_folder='static')
 
-conn = mysql.connector.connect(
-  host="localhost",
-  port="3306",
-  user="root",
-  password="Vikram@1029",
-  database="contactform"
-)
+# conn = mysql.connector.connect(
+#   host="localhost",
+#   port="3306",
+#   user="root",
+#   password="Vikram@1029",
+#   database="contactform"
+# )
 
 @app.route('/')
 def index():
@@ -23,9 +23,9 @@ def contact():
     name = request.form['name']
     email = request.form['email']
     message = request.form['message']
-    cursor = conn.cursor()
-    cursor.execute("INSERT INTO contacts (name, email, message) VALUES (%s, %s, %s)", (name, email, message))
-    conn.commit()
+    # cursor = conn.cursor()
+    # cursor.execute("INSERT INTO contacts (name, email, message) VALUES (%s, %s, %s)", (name, email, message))
+    # conn.commit()
 
     if request.form.get("send_response") == "yes":
         msg = MIMEText("Thank you for contacting us. We will get back to you soon.")
