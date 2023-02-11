@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-import mysql.connector
+# import mysql.connector
 import smtplib
 from email.mime.text import MIMEText
 
