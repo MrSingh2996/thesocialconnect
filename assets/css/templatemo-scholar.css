@@ -826,8 +826,7 @@ Services Style
   margin-bottom: 30px;
   margin-right: 80px;
   transition: all .4s;
-  box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 3px, rgb(0 0 0 / 3%) 0px 3px 0px 0px, 
-              rgb(0 0 0 / 3%) 0px 0px 15px 0px, rgb(0 0 0 / 10%) 0px 25px 35px 0px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 0px 0px 3px, rgb(0 0 0 / 3%) 0px 3px 0px 0px, rgb(0 0 0 / 3%) 0px 0px 15px 0px, rgb(0 0 0 / 10%) 0px 25px 35px 0px;
 }
 
 .services .service-item h4 {
