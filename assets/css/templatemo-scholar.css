@@ -597,8 +597,17 @@ Header Style
   .header-area .menu-trigger {
     display: block !important;
   }
+
+  .media_dropdown {
+     margin-bottom: 10px;
+  }
+
+  .header-area .main-nav .logo img {
+    max-height: 45px;
+  }
+
   .header-area .main-nav {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .header-area .main-nav .nav {
     float: none;
