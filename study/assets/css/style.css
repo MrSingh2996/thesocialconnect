@@ -293,6 +293,10 @@ h6 {
     left: -90%;
   }
 
+  #header .logo img {
+    max-height: 45px;
+  }
+
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
